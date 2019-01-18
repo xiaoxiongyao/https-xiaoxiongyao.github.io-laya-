@@ -1,0 +1,145 @@
+.wear .n1{
+	border: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	background-color: #222222;
+}
+.navbar-default .navbar-brand{
+	margin-left: 150px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #080808;
+	color: #eaeaea;
+}
+.nav{
+	width: 75%;
+}
+.wear .nav .f1{
+	margin-left: 3%;
+}
+.img1{
+	padding: 0px;
+	line-height: 50px;
+}
+.navbar-nav > li>a{
+	padding: 15px 20px;
+}
+.navbar-brand > img{
+	display: inline-block;
+}
+.wear .nav .dro1{
+	margin-right: 0px;
+}
+.tp img{
+	width: 100%;
+	height: 100%;
+}
+/*简介*/
+.brief{
+	padding:50px 0px;
+}
+.brief img{
+	margin-top:150px;
+}
+.brief p{
+	margin-top:20px;
+}
+/*人才招聘*/
+.rczp{
+	padding: 80px 0px;
+	background-color: #8cc11f;
+	color: #fff;
+}
+.rczp .col-md-7 p:nth-child(2){
+	margin-top:50px;
+}
+.rczp .col-md-4{
+	margin-top:100px;
+}
+.rczp .col-md-4 p{
+	margin-top:10px;
+}
+.rczp .col-md-4 a{
+	width: 220px;
+	height: 50px;
+	display: inline-block;
+	background-color: #fff;
+	color: #8cc11f;
+	text-align:center;
+	line-height: 50px;
+	border-radius: 5px;
+	font-size: 24px;
+}
+.zwzp .as3{
+	padding: 60px 0px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.zwzp h2{
+	font-size: 26px;
+	color:#8cc11f;
+}
+.zwzp h3{
+	font-size: 18px;
+}
+.zwzp li{
+	margin-left:20px;
+	margin-top:10px;
+}
+.phone{
+	padding: 50px 0px;
+	background-color: #f4f4f4;
+}
+.phone .col-md-5{
+	height: 100px;
+	border-radius: 5px;
+	margin:10px 15px;
+	background-color: #fff;
+	line-height: 100px;
+}
+.footer{
+	background-color: #3b3b3b;
+	padding: 35px 0px;
+}
+.footer a{
+	text-decoration: none;
+	color: #a1a3ab;
+	font-size: 14px;
+}
+.footer span{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+.footer .foot2 .fl{
+	width: 154px;
+	height: 38px;
+}
+
+.footer .foot2 img{
+}
+.footer .fl{
+	position: relative;
+}
+.footer .weixin{
+	position: absolute;
+	top: -300px;
+	left: -35px;
+}
+.footer .foot2 .weixin{
+	display: none;
+}
+.footer .foot2:hover .weixin{
+	display: inline-block;
+}
+@media (max-width:992px) {
+	.brief .container img{
+		display: none;
+	}
+}
+@media (max-width:1200px){
+	.navbar-default .navbar-brand{
+	margin-left: 50px;
+}
+.nav{
+	width: 100%;
+}
+}

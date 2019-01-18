@@ -1,0 +1,158 @@
+.wear .n1{
+	border: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	background-color: #222222;
+}
+.navbar-default .navbar-brand{
+	margin-left: 150px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #080808;
+	color: #eaeaea;
+}
+.nav{
+	width: 75%;
+}
+.wear .nav .f1{
+	margin-left: 3%;
+}
+.img1{
+	padding: 0px;
+	line-height: 50px;
+}
+.navbar-nav > li>a{
+	padding: 15px 20px;
+}
+.navbar-brand > img{
+	display: inline-block;
+}
+.wear .nav .dro1{
+	margin-right: 0px;
+}
+/*轮播图*/
+.wear .banner{
+	text-align: center;
+	width: 100%;
+	background-color: #2b80d9;
+}
+.banner .carousel-inner .item{
+	text-align: center;
+}
+.banner .carousel-inner .item>img{
+	display: inline-block;
+}
+.carousel-control.left{
+	font-size: 5rem;
+	margin-top: 10%;
+	background-image:none;
+}
+.carousel-control.right{
+	font-size: 5rem;
+	margin-top: 10%;
+	background-image:none;
+}
+/*热门*/
+.hot{
+	text-align:right;
+}
+.hot .col-md-8 p{
+	line-height: 30px;
+	font-size: 12px;
+	color: #898989;
+}
+.hot .col-md-8 .row{
+	margin-top: 30px;
+}
+/*热门2*/
+.hot2{
+	padding:50px 0px;
+}
+.hot2 .col-md-8 p{
+	line-height: 30px;
+	font-size: 12px;
+	color: #898989;
+}
+.hot2 .col-md-8 .row{
+	margin-top: 30px;
+}
+/*更多*/
+.more{
+	padding: 50px 0px;
+}
+.more .row div{
+	text-align:center;
+}
+.more .row p{
+	margin-top: 10px;
+}
+.more .row a{
+	color: #000;
+}
+.more .row img{
+	margin-top: 20px;
+	position: relative;
+}
+.more .row .col-md-4:hover span{
+	display: block;
+}
+.more .row span{
+	position: absolute;
+	left: 42px;
+	top: 20px;
+	display:none;
+	width: 304px;
+	height: 133px;
+	color: #fff;
+	background-color: rgba(0,0,0,.5);
+}
+.footer{
+	background-color: #3b3b3b;
+	padding: 35px 0px;
+}
+.footer a{
+	text-decoration: none;
+	color: #a1a3ab;
+	font-size: 14px;
+}
+.footer span{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+.footer .foot2 .fl{
+	width: 154px;
+	height: 38px;
+}
+
+.footer .foot2 img{
+}
+.footer .fl{
+	position: relative;
+}
+.footer .weixin{
+	position: absolute;
+	top: -300px;
+	left: -35px;
+}
+.footer .foot2 .weixin{
+	display: none;
+}
+.footer .foot2:hover .weixin{
+	display: inline-block;
+}
+@media(max-width:768px){
+	
+}
+@media(max-width:992px){
+	.hot1,.hot3{
+		display: none;
+	}
+}
+@media (max-width:1200px){
+	.navbar-default .navbar-brand{
+	margin-left: 50px;
+}
+.nav{
+	width: 100%;
+}
+}
